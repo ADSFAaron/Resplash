@@ -57,6 +57,6 @@ data class Links(
     val photos: String,
     val likes: String,
     val portfolio: String,
-    val following: String,
-    val followers: String
+    val following: String?,
+    val followers: String?
 ) : Parcelable
